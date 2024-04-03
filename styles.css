@@ -2,11 +2,42 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #333;
     color: #f4f4f4;
-    margin: 20px;
-  }
+}
 
-  footer:hover a{
+.titulo-p{
+    margin: auto;
+    width: fit-content;
+    border: 1px solid beige;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+} 
+
+.images img{
+    width: 50vw;
+    height: 50vh;
+}
+.images{
+    margin-top: 2em;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloart1{
+    text-align:center;
+}
+
+.tb1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer:hover a{
     background-color:black;
     color: #f4f4f4;
     text-decoration: none;
-  }
+}
